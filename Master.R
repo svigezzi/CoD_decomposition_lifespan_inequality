@@ -37,7 +37,7 @@ source("Scripts/Functions.R")
 
 # Download WHO data - online
 source("Scripts/Get_WHO_data.R")
-# Read saved WHO data - offline
+# Read saved WHO data - offline. If using, please comment out the previous line.
 # load("Data/who.RData")
 
 # Get HMD data - online
@@ -46,7 +46,7 @@ us <- ""
 # set your password for HMD
 pw <- ""
 source("Scripts/Get_HMD_data.R")
-# Read saved HMD data - offline
+# Read saved HMD data - offline. If using, please comment out the previous line.
 # load("Data/hmd.RData")
 
 
