@@ -1,0 +1,6 @@
+Here you can find the scripts and (if necessary) data to reproduce the results of the paper "Cause-of-death determinants of lifespan inequality", by Iñaki Permanyer and Serena Vigezzi.
+
+You need only run the script "Master.R", which already has the scripts to run in order. To this script, you need to add your HMD username and password.
+By default, this script attempts to download the data directly from the websites (Human Mortality Database data from https://mortality.org/ and WHO cause-of-death data from https://www.who.int/data/data-collection-tools/who-mortality-database
+If you don't have an Internet connection or if the data has been updated in a way that changes results, you can also use the the datasets provided in the "Data" folder.
+This will give you the datasets already cleand and formatted to be used for the calculations. At 08/06/2023, the data reproduce the results.
